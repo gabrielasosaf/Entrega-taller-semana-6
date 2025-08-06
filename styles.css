@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 165);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/364/706/non_2x/abstract-modern-geometric-pastel-blue-wallpaper-background-free-vector.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image{
@@ -21,4 +23,29 @@ body {
 #contendor-principal{
     align-items: center;
     text-align: center;
+}
+
+h1{
+    text-decoration: underline;
+}
+.image{
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.link-button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
 }
