@@ -1,7 +1,10 @@
 body {
     background-color: rgb(255, 255, 165);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+h1{
+    text-decoration: underline;
+}
 .image{
     border: 5px solid green;
     border-radius: 10px;
