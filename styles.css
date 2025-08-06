@@ -18,7 +18,7 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
-body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/003/364/706/non_2x/abstract-modern-geometric-pastel-blue-wallpaper-background-free-vector.jpg");
-    
+#contendor-principal{
+    align-items: center;
+    text-align: center;
 }
